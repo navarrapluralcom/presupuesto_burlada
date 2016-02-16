@@ -1,5 +1,5 @@
 from django.db import models
-from django.core.cache import get_cache
+from django.core.cache import caches
 from economic_category import EconomicCategory
 from functional_category import FunctionalCategory
 from funding_category import FundingCategory
@@ -53,7 +53,7 @@ class BudgetManager(models.Manager):
 
     # Get all descriptions available
     def get_all_descriptions(self, entity):
-        cache = get_cache('default')
+        cache = caches['default']
         key = "entity_"+entity.code
         if cache.get(key) == None:
             descriptions = {

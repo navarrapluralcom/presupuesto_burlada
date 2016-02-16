@@ -3,14 +3,14 @@
 from django.conf.urls.i18n import i18n_patterns
 from django.conf.urls import patterns, url, include
 from django.conf import settings
-from django.views.generic.simple import direct_to_template
+from django.shortcuts import render
 
 budget_app_urlpatterns = patterns('',
     url(r'^i18n/', include('django.conf.urls.i18n'))
 )
 
 budget_app_urlpatterns += i18n_patterns('budget_app.views',
-    url(r'^/?$', 'welcome'),
+    url(r'^$', 'welcome'),
 
     url(r'^resumen$', 'budgets'),
 
@@ -62,7 +62,7 @@ budget_app_urlpatterns += i18n_patterns('budget_app.views',
 
     # Robots
     # See http://fredericiana.com/2010/06/09/three-ways-to-add-a-robots-txt-to-your-django-project/
-    url(r'^robots\.txt$', direct_to_template, {'template': 'robots.txt', 'mimetype': 'text/plain'}),
+    url(r'^robots\.txt$', 'robots'),
 
 
     #
