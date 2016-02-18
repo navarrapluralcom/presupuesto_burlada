@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-from coffin.shortcuts import render_to_response
+from django.shortcuts import render_to_response
 from django.conf import settings
 from budget_app.models import Budget, BudgetBreakdown, BudgetItem
 from helpers import *

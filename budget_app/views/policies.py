@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from coffin.shortcuts import render_to_response
+from django.shortcuts import render_to_response
 from budget_app.models import Budget, BudgetBreakdown, FunctionalCategory, EconomicCategory
 from entities import entities_show
 from helpers import *

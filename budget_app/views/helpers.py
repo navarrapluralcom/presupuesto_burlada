@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 # Small utility functions shared by all views
-from coffin.shortcuts import render_to_response
+from django.shortcuts import render_to_response
 from budget_app.models import Budget, BudgetItem, InflationStat, PopulationStat, Entity
 from django.template import RequestContext
 from django.conf import settings

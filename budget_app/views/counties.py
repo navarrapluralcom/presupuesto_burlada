@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from coffin.shortcuts import render_to_response
+from django.shortcuts import render_to_response
 from budget_app.models import BudgetBreakdown, Entity
 from entities import entities_index, entities_show, entities_compare, entities_show_article, entities_show_policy
 from helpers import *

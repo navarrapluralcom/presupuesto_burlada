@@ -1,4 +1,4 @@
-from coffin.shortcuts import render_to_response
+from django.shortcuts import render_to_response
 from django.core.paginator import Paginator
 from django.utils.translation import ugettext as _
 from budget_app.models import GlossaryTerm

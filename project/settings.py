@@ -211,7 +211,9 @@ JINJA2_EXTENSIONS = [
 
 # Needed by django_compressor. See http://django-compressor.readthedocs.org/en/latest/jinja2/#id1
 def COMPRESS_JINJA2_GET_ENVIRONMENT():
-    from coffin.common import env
+    import jinja2
+    from compressor.contrib.jinja2ext import CompressorExtension
+    env = jinja2.Environment(extensions=[CompressorExtension])
     return env
 
 # Setup Jasmine folder for js unit

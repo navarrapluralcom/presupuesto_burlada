@@ -1,4 +1,4 @@
-from coffin.shortcuts import render_to_response
+from django.shortcuts import render_to_response
 from budget_app.models import Budget, BudgetBreakdown, BudgetItem, Entity
 from helpers import *
 

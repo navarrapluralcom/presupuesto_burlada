@@ -1,4 +1,4 @@
-from coffin.shortcuts import render_to_response
+from django.shortcuts import render_to_response
 from django.core.paginator import Paginator, EmptyPage
 from django.conf import settings
 from budget_app.models import Budget, Payment, GlossaryTerm, FunctionalCategory, BudgetItem, Entity
