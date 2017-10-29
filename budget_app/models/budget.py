@@ -15,7 +15,6 @@ class BudgetManager(models.Manager):
     # Return the latest (not pending approval) budget for the given entity
     def latest(self, entity_id):
         return self.filter(entity_id=entity_id) \
-                    .exclude(status='PR') \
                     .order_by('-year')[0]
 
     # Return a list of years for which we have a budget
