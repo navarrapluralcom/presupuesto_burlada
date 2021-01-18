@@ -1,27 +1,4 @@
 
-<img src="http://presupuesto.aragon.es/static/assets/logo-gobierno-aragon.png" height="28px" /><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>![Logo Aragón Open Data](budget_app/static/assets/logoAragonOpenData.png)
-
-## Presupuestos de Aragón
-
-Este repositorio contiene el código de la aplicación de visualización de [Presupuestos del Gobierno de Aragón][1], desarrollada como parte del proyecto [Aragón Open Data][3].
-
-### Introducción
-El objetivo de la primera fase del proyecto consistió en ofrecer una visualización de los Presupuestos Generales de Aragón suficientemente intuitiva como para ser comprendida por personas sin experiencia previa en política presupuestaria, pero a la vez suficientemente detallada para permitir a aquellas personas interesadas y expertas en este asunto profundizar más de una manera ágil y efectiva. Así, esa primera fase muestra la realidad del presupuesto en su conjunto, cubriendo tanto el lado de los ingresos como el de los gastos, y tanto las cantidades presupuestadas como las finalmente ejecutadas (cuando la información esté disponible). El objetivo de la segunda fase ha sido extender la transparencia de los presupuestos de la comunidad autónoma a niveles inferiores: municipios y comarcas.
-
-Las principales funcionalidades de la aplicación son:
-
- * Visualización de gastos e ingresos presupuestados, de forma jerárquica y según las cuatro clasificaciones usadas en los presupuestos: funcional (para qué se gasta), económica (en qué se gasta, o cómo se ingresa), financiación (origen y tipo de los fondos) y orgánica/institucional (quién gasta/ingresa).
-
- * Mostrar la información de los programas presupuestarios al máximo nivel de desglose existente, el nivel de partida.
-
- * Mostrar la evolución de los presupuestos desde 2006.
-
- * Permitir la búsqueda de texto libre en el conjunto de los presupuestos para encontrar cualquier dato de forma sencilla
-
-Para más información, consulta las memorias del proyecto para las fases [uno](docs/Memoria Fase 1.pdf) y [dos](docs/Memoria Fase 2.pdf). Y las instrucciones de instalación en el fichero [`INSTALL.md`](INSTALL.md).
-
-[1]: http://presupuesto.aragon.es
-[3]: http://opendata.aragon.es/
 
 ### Licencia
 
@@ -36,3 +13,5 @@ Que el código de esta aplicación esté publicado bajo la licencia abierta [EUP
 ### Agradecimientos
 
 Gracias a <a href="https://www.browserstack.com">BrowserStack</a> por facilitarnos una cuenta Live gratuita para poder mejorar la compatibilidad con Internet Explorer.
+
+<img src="http://presupuesto.aragon.es/static/assets/logo-gobierno-aragon.png" height="28px" /><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>![Logo Aragón Open Data](budget_app/static/assets/logoAragonOpenData.png)
